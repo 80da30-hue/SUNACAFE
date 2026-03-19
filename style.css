@@ -1,0 +1,114 @@
+body{
+margin:0;
+font-family:serif;
+background:#f5f1ea;
+color:#3b2f2f;
+}
+
+/* ヘッダー */
+header{
+background:#4a3b2a;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+/* セクション共通 */
+section{
+max-width:900px;
+margin:40px auto;
+padding:20px;
+background:#fffaf3;
+border:1px solid #ddd;
+}
+
+/* タイトル */
+h2{
+text-align:center;
+margin-bottom:20px;
+}
+
+/* 画像の代わり */
+.image-box{
+background:#ccc;
+height:250px;
+display:flex;
+align-items:center;
+justify-content:center;
+margin-bottom:20px;
+}
+
+.image-box.small{
+width:150px;
+height:150px;
+}
+
+/* メイン */
+/* .hero{
+text-align:center;
+} */
+.main-image{
+width:100%;
+max-width:800px;
+display:block;
+margin:0 auto 20px;
+}
+
+.owner-box{
+display:flex;
+gap:30px;
+align-items:flex-start;
+margin-right:40px;
+}
+
+.owner-image{
+width:300px;
+height:300px;
+object-fit:cover;
+margin: left 1.5cm;
+}
+
+.gallery-box{
+display:flex;
+gap:15px;
+}
+
+.gallery-image{
+width:100%;
+height:180px;
+object-fit:cover;
+}
+
+.menu-info{
+    display:flex;
+    gap:40px; 
+    max-width:900px;
+    margin:40px auto;
+} 
+
+.menu, .info{
+     flex:1;
+}
+
+/* メニュー */
+ul{
+list-style:none;
+padding:0;
+text-align:center;
+line-height:2;
+}
+
+.access{
+  max-width:900px;
+  margin:40px auto;
+  text-align:center;
+}
+
+/* フッター */
+footer{
+background:#4a3b2a;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
