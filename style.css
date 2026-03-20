@@ -112,3 +112,39 @@ text-align:center;
 padding:20px;
 margin-top:40px;
 }
+
+@media (max-width: 768px) {
+
+  /* 店主紹介 横→縦 */
+  .owner-box {
+    flex-direction: column;
+    margin-right: 0;
+  }
+
+  .owner-image {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ギャラリー 横→縦 */
+  .gallery-box {
+    flex-direction: column;
+  }
+
+  /* メニューと営業時間 横→縦 */
+  .menu-info {
+    flex-direction: column;
+  }
+
+  /* 余白調整 */
+  section {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  /* 文字少し小さく */
+  body {
+    font-size: 14px;
+  }
+
+}
